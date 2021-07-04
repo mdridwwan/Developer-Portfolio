@@ -4,7 +4,7 @@ body {
     padding: 0px;
 }
 
-#banner-top {
+.banner-top {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 140px;
 }
@@ -57,7 +57,7 @@ section {
     border-radius: 5px;
 }
 
-#second-banner {
+.second-banner {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -86,4 +86,68 @@ section {
 #D:hover {
     color: rgb(252, 161, 14);
     transition: 1s;
+}
+
+.experience-blog {
+    width: 40%;
+    margin: 0% 5%;
+    padding-left: 30px;
+    box-shadow: -12px 9px 19px 0px #ffab007d;
+    border-radius: 5px;
+}
+
+.experience-blog:hover {
+    width: 40%;
+    margin: 0% 5%;
+    padding-left: 30px;
+    box-shadow: 9px 9px 19px 0px rgb(54 81 236 / 38%);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.experience-blog h1 {
+    font-size: 46px;
+}
+
+.experience-blog p {
+    text-align: justify;
+    margin-bottom: 80px;
+    padding-right: 20px;
+    color: dimgray;
+}
+
+.experience-blog h3 {
+    color: orange;
+    margin-bottom: 29px;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#ex-color {
+    color: rgb(54, 81, 236);
+}
+
+#stack-color {
+    color: rgb(252, 129, 14);
+}
+
+#border-image {
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff0099, tomato);
+    border-image-slice: 1;
+}
+
+#border-image1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 0, 255), rgb(216 0 255));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(168, 168, 168);
 }
