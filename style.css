@@ -19,6 +19,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 140px;
 }
 
 .half-weight {
@@ -34,7 +35,6 @@ section {
 .half-weight p {
     width: 70%;
     text-align: justify;
-    margin-bottom: 5px;
     margin-bottom: 29px;
 }
 
@@ -51,8 +51,39 @@ section {
 .button {
     text-decoration: none;
     padding: 10px 40px;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(90deg, tomato, orange);
     color: #fff;
     font-weight: 800;
     border-radius: 5px;
+}
+
+#second-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#big {
+    color: rgb(54, 81, 236);
+    font-size: 65px;
+    margin: 0px 3px 0px 3px;
+}
+
+#big:hover {
+    color: rgb(252, 161, 14);
+    transition: 1s;
+}
+
+.dream {
+    margin-bottom: 0px;
+}
+
+#D {
+    color: #ff3f8b;
+    font-size: 34px;
+}
+
+#D:hover {
+    color: rgb(252, 161, 14);
+    transition: 1s;
 }
